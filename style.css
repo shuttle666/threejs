@@ -1,0 +1,32 @@
+:root {
+  font-size: 10px;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-drag: none;
+
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+}
+
+@mixin flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  min-height: 100dvh;
+  @include flexCenter;
+}
