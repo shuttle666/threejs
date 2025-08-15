@@ -1,6 +1,6 @@
 # Three.js 3D Model Loader Demo
 
-The project has been deployed at: https://github.com/shuttle666/threejs
+The project has been deployed at: https://threejs-one-dun.vercel.app/
 
 A Three.js-based 3D model viewer with interactive controls and debugging tools.
 
